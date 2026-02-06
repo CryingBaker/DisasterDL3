@@ -32,45 +32,63 @@ def sync_to_drive():
             
         default_path = drive_candidates[0] if drive_candidates else None
         
-        print("\nPlease enter the path to your local Google Drive folder.")
-        if default_path:
-            print(f"Found potential match: {default_path}")
-            user_input = input(f"Press Enter to use this, or type path: ").strip()
-            dest_root = Path(user_input) if user_input else default_path
-        else:
-            dest_input = input("Path (e.g. /Volumes/GoogleDrive/My Drive): ").strip()
-            if not dest_input:
-                print("❌ No path provided. Exiting.")
-                return
-            dest_root = Path(dest_input)
+        print("\n" + "="*60)
+        print("❓ Google Drive Setup")
+        print("="*60)
         
-    if not dest_root.exists():
+        if default_path:
+            print(f"I found Google Drive at: {default_path}")
+            print("Press [Enter] to use this path.")
+            print("Or paste a different path below.")
+        else:
+            print("⚠️  I could not automatically find your Google Drive folder.")
+            print("Please paste the full path to your Google Drive folder below.")
+            print("If you don't know it, just press [Enter] and I will save to your Desktop.")
+            print("(You can then drag that folder to Google Drive manually).")
+            
+        user_input = input(f"\nPath > ").strip()
+        
+        if user_input:
+            dest_root = Path(user_input)
+        elif default_path:
+            dest_root = default_path
+        else:
+            dest_root = Path.home() / "Desktop"
+            print(f"\n⚠️  Using Desktop fallback: {dest_root}")
+
+    # Verify path (unless it's the Desktop fallback which we know exists/can create)
+    if not dest_root.exists() and "Desktop" not in str(dest_root):
         print(f"❌ Error: Path '{dest_root}' does not exist.")
-        print("Please ensure Google Drive is running and mounted.")
+        print("Please ensure Google Drive is running.")
         return
 
-    # Create destination folder
-    dest_folder = dest_root / "DisasterDL3_Backups"
+    # Create destination folder structure
+    # User asked for "DisasterDL" folder
+    dest_folder = dest_root / "DisasterDL"
     dest_folder.mkdir(parents=True, exist_ok=True)
+    
+    # Create subfolders for better organization
+    (dest_folder / "active_run").mkdir(exist_ok=True)
+    
     print(f"✅ Syncing to: {dest_folder}")
+    print(f"   (Folder 'DisasterDL' created)")
     
     print("\nStarting Auto-Sync (Ctrl+C to stop)...")
-    print("Target: logs/, checkpoints/, results/")
+    print("Monitoring: logs/, checkpoints/, results/ -> DisasterDL/")
     
     try:
         while True:
-            # Use rsync for efficient syncing (only changed files)
-            # 1. Sync Logs
-            subprocess.run(["rsync", "-av", "--exclude", "*.DS_Store", str(logs_dir), str(dest_folder)], check=True)
+            # Sync to 'active_run' to avoid clutter
+            target = dest_folder # Sync directly to DisasterDL root or active_run? 
+            # User said "upload it there", implies root of that folder.
             
-            # 2. Sync Checkpoints
+            # Use rsync for efficient syncing
+            subprocess.run(["rsync", "-av", "--exclude", "*.DS_Store", str(logs_dir), str(dest_folder)], check=True)
             subprocess.run(["rsync", "-av", "--exclude", "*.DS_Store", str(checkpoints_dir), str(dest_folder)], check=True)
-
-            # 3. Sync Results (Top 5 Samples)
             if results_dir.exists():
                 subprocess.run(["rsync", "-av", "--exclude", "*.DS_Store", str(results_dir), str(dest_folder)], check=True)
             
-            print(f"[{time.strftime('%H:%M:%S')}] Sync complete. Waiting 60s...")
+            print(f"[{time.strftime('%H:%M:%S')}] ✅ Sync complete. Next update in 60s...")
             time.sleep(60)
             
     except KeyboardInterrupt:
