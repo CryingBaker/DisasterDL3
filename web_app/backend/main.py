@@ -29,11 +29,24 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 def load_model():
     global model
     try:
-        # Use ResNet18 checkpoint for now - switch to best_model.pth when ResNet50 is ready
-        # CURRENT: ResNet18 | FUTURE: ResNet50 (change path to best_model.pth)
-        model_path = BASE_DIR / "checkpoints" / "best_model_resnet18.pth"
-        model = SiameseResNetUNet(n_channels=2, n_classes=1)
-        if model_path.exists():
+        # Search for best available checkpoint
+        # Priority: ResNet50 (New) > ResNet18 (Old)
+        possible_models = list((BASE_DIR / "checkpoints").glob("*resnet_50*.pth")) + \
+                          list((BASE_DIR / "checkpoints").glob("*best_model*.pth"))
+        
+        if possible_models:
+            # Sort by modification time (newest first)
+            possible_models.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+            model_path = possible_models[0]
+            print(f"🔄 Selecting newest model: {model_path.name}")
+            
+            # Decide architecture based on filename
+            if "resnet50" in model_path.name.lower() or "resnet_50" in model_path.name.lower():
+                from src.model import SiameseResNet50UNet
+                model = SiameseResNet50UNet(n_channels=2, n_classes=1)
+            else:
+                model = SiameseResNetUNet(n_channels=2, n_classes=1)
+                
             checkpoint = torch.load(model_path, map_location=device)
             # Handle both state_dict and full checkpoint
             state_dict = checkpoint.get("state_dict", checkpoint) if isinstance(checkpoint, dict) else checkpoint
@@ -43,7 +56,8 @@ def load_model():
             model.load_state_dict(new_state_dict)
             print(f"✅ Model loaded from {model_path}")
         else:
-            print(f"⚠️ Warning: Checkpoint not found at {model_path}. Running with uninitialized weights.")
+            print(f"⚠️ Warning: No checkpoint found in {BASE_DIR}/checkpoints. Running with uninitialized ResNet18.")
+            model = SiameseResNetUNet(n_channels=2, n_classes=1)
         
         model.to(device)
         model.eval()
