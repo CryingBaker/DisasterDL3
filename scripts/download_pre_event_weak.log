@@ -1,0 +1,369 @@
+INFO - ============================================================
+INFO - Pre-Event SAR Retrieval
+INFO - ============================================================
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+INFO - GEE initialized with project: rare-ridge-486516-k1
+INFO - Scanning source directory: data/sen1floods11/S1Weak
+INFO - Found 4384 chips in S1Weak.
+INFO - Found 4384 post-event chips to match
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 8 images for chip. Creating median composite.
+INFO -   File exists: Sri-Lanka_7291353_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Sri-Lanka_7291353_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 12 images for chip. Creating median composite.
+INFO -   File exists: Spain_9771867_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Spain_9771867_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 8 images for chip. Creating median composite.
+INFO -   File exists: Mekong_218018_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_218018_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 13 images for chip. Creating median composite.
+INFO -   File exists: Mekong_822322_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_822322_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 2 images for chip. Creating median composite.
+INFO -   File exists: Paraguay_8064659_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Paraguay_8064659_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 9 images for chip. Creating median composite.
+INFO -   File exists: Mekong_2430080_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_2430080_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 8 images for chip. Creating median composite.
+INFO -   File exists: Mekong_5880962_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_5880962_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 1 images for chip. Creating median composite.
+INFO -   File exists: USA_8736020_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading USA_8736020_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 9 images for chip. Creating median composite.
+INFO -   File exists: Mekong_2570066_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_2570066_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 8 images for chip. Creating median composite.
+INFO -   File exists: Mekong_4534602_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_4534602_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 7 images for chip. Creating median composite.
+INFO -   File exists: Pakistan_1179159_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Pakistan_1179159_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 9 images for chip. Creating median composite.
+INFO -   File exists: Mekong_1938695_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_1938695_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: USA_6746841_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading USA_6746841_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 2 images for chip. Creating median composite.
+INFO -   File exists: India_5383213_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading India_5383213_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: Nigeria_8242857_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Nigeria_8242857_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 5 images for chip. Creating median composite.
+INFO -   File exists: Ghana_4382917_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Ghana_4382917_PreEvent.tif...
+WARNING - No metadata for event: Colombia
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: USA_2693380_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading USA_2693380_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: USA_2098_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading USA_2098_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 5 images for chip. Creating median composite.
+INFO -   File exists: Paraguay_6948893_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Paraguay_6948893_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 8 images for chip. Creating median composite.
+INFO -   File exists: Bolivia_1865135_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Bolivia_1865135_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 5 images for chip. Creating median composite.
+INFO -   File exists: USA_2337807_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading USA_2337807_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 2 images for chip. Creating median composite.
+INFO -   File exists: India_5296561_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading India_5296561_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: USA_4848563_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading USA_4848563_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 9 images for chip. Creating median composite.
+INFO -   File exists: Mekong_7535466_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_7535466_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 2 images for chip. Creating median composite.
+INFO -   File exists: India_6543540_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading India_6543540_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 6 images for chip. Creating median composite.
+INFO -   File exists: Sri-Lanka_9183506_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Sri-Lanka_9183506_PreEvent.tif...
+WARNING - No metadata for event: Colombia
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 12 images for chip. Creating median composite.
+INFO -   File exists: Spain_6489145_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Spain_6489145_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: Ghana_4261528_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Ghana_4261528_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 2 images for chip. Creating median composite.
+INFO -   File exists: Paraguay_1656053_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Paraguay_1656053_PreEvent.tif...
+WARNING - No metadata for event: Colombia
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 13 images for chip. Creating median composite.
+INFO -   File exists: Mekong_122037_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_122037_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: USA_9668511_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading USA_9668511_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 9 images for chip. Creating median composite.
+INFO -   File exists: Mekong_9670041_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_9670041_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 5 images for chip. Creating median composite.
+INFO -   File exists: Pakistan_8916932_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Pakistan_8916932_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 2 images for chip. Creating median composite.
+INFO -   File exists: Nigeria_8467044_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Nigeria_8467044_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 8 images for chip. Creating median composite.
+INFO -   File exists: Mekong_8542499_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_8542499_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: USA_1940484_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading USA_1940484_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 13 images for chip. Creating median composite.
+INFO -   File exists: Mekong_1685525_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_1685525_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 12 images for chip. Creating median composite.
+INFO -   File exists: Mekong_2073607_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_2073607_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 7 images for chip. Creating median composite.
+INFO -   File exists: Somalia_7338089_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Somalia_7338089_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 8 images for chip. Creating median composite.
+INFO -   File exists: Mekong_5572763_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_5572763_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 9 images for chip. Creating median composite.
+INFO -   File exists: Mekong_6228259_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_6228259_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 1 images for chip. Creating median composite.
+INFO -   File exists: India_8394141_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading India_8394141_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: Nigeria_8131792_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Nigeria_8131792_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 8 images for chip. Creating median composite.
+INFO -   File exists: Mekong_8137564_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_8137564_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 9 images for chip. Creating median composite.
+INFO -   File exists: Mekong_8176429_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_8176429_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 13 images for chip. Creating median composite.
+INFO -   File exists: Mekong_6235918_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_6235918_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: USA_8006823_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading USA_8006823_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 1 images for chip. Creating median composite.
+INFO -   File exists: India_4288927_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading India_4288927_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: USA_9868335_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading USA_9868335_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 10 images for chip. Creating median composite.
+INFO -   File exists: Ghana_6330086_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Ghana_6330086_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 6 images for chip. Creating median composite.
+INFO -   File exists: Bolivia_1966339_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Bolivia_1966339_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 8 images for chip. Creating median composite.
+INFO -   File exists: Mekong_1788909_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_1788909_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 9 images for chip. Creating median composite.
+INFO -   File exists: Mekong_3072384_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_3072384_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 2 images for chip. Creating median composite.
+INFO -   File exists: India_732556_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading India_732556_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 8 images for chip. Creating median composite.
+INFO -   File exists: Mekong_8426632_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_8426632_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 5 images for chip. Creating median composite.
+INFO -   File exists: Ghana_4676579_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Ghana_4676579_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 1 images for chip. Creating median composite.
+INFO -   File exists: India_5679356_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading India_5679356_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 11 images for chip. Creating median composite.
+INFO -   File exists: Mekong_7394610_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_7394610_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 17 images for chip. Creating median composite.
+INFO -   File exists: Spain_320947_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Spain_320947_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 9 images for chip. Creating median composite.
+INFO -   File exists: Mekong_4436053_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_4436053_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 2 images for chip. Creating median composite.
+INFO -   File exists: Paraguay_482064_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Paraguay_482064_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 12 images for chip. Creating median composite.
+INFO -   File exists: Spain_1596072_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Spain_1596072_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 8 images for chip. Creating median composite.
+INFO -   File exists: Mekong_6790806_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_6790806_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 9 images for chip. Creating median composite.
+INFO -   File exists: Mekong_8347255_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_8347255_PreEvent.tif...
+WARNING - No metadata for event: Colombia
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 12 images for chip. Creating median composite.
+INFO -   File exists: Pakistan_6114632_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Pakistan_6114632_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 9 images for chip. Creating median composite.
+INFO -   File exists: Mekong_9228146_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_9228146_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 6 images for chip. Creating median composite.
+INFO -   File exists: Sri-Lanka_3137100_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Sri-Lanka_3137100_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 2 images for chip. Creating median composite.
+INFO -   File exists: India_5475254_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading India_5475254_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 4 images for chip. Creating median composite.
+INFO -   File exists: USA_1114651_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading USA_1114651_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 13 images for chip. Creating median composite.
+INFO -   File exists: Mekong_9353800_PreEvent.tif (overwriting to ensure content)
+INFO -   Downloading Mekong_9353800_PreEvent.tif...

@@ -1,0 +1,1806 @@
+INFO - ============================================================
+INFO - Pre-Event SAR Retrieval
+INFO - ============================================================
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+INFO - GEE initialized with project: rare-ridge-486516-k1
+INFO - Scanning flat directory: data/sen1floods11/S1Hand
+INFO - Found 446 chips in flat directory.
+INFO - Found 446 post-event chips to match
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_922373_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_12870_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_934240_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_249079_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_685158_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_234935_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_52223_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_523539_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_56450_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_933610_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_247656_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_194723_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_1018327_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_1019808_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_519181_PreEvent.tif
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_81933_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_698338_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_143329_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_417184_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_132163_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_482517_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_548910_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_11869_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_822142_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_1089161_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_251323_PreEvent.tif
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_233925_PreEvent.tif
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_7558720_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_826217_PreEvent.tif
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_8199661_PreEvent.tif
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_246510_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_24341_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_66511_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_1039203_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_1033830_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_322855_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_141271_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_44475_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_44682_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_195014_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_600295_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_605682_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_166342_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_694942_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_8565131_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_126224_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_124834_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_84195_PreEvent.tif
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_16233_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_566697_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_280900_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_970508_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_94095_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_1017769_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_23014_PreEvent.tif
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_649376_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_804466_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_53713_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_172476_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_721886_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_683296_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_8104659_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_373039_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_225131_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_339807_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_181503_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_486103_PreEvent.tif
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_424793_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_895194_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_1191208_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_7604243_PreEvent.tif
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_379434_PreEvent.tif
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_167787_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_348639_PreEvent.tif
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_849790_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_91379_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_2523247_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_179624_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_667363_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_406026_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_7496_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_76104_PreEvent.tif
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_321316_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_922192_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_842775_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_337094_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_45911_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_135713_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_236628_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_1395593_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_713926_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_225017_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_792268_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_646878_PreEvent.tif
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_32375_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_741073_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_103447_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_273873_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_293769_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_1396181_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_205585_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_336228_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_820924_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_207862_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_252217_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_210595_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_79637_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_1029042_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_387945_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_570384_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_2472849_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_287642_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_652725_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_35845_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_909806_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_1282475_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_2938657_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_48673_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_167553_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_400518_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_795075_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_997480_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_1050276_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_269835_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_377277_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_221789_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_905409_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_313799_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_1072277_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_401863_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_943439_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_264787_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_54421_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_4282030_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_504150_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_224165_PreEvent.tif
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_43105_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_277_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_128663_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_166709_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_740461_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_136196_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_747970_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_11745_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_952728_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_529525_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_748447_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_994009_PreEvent.tif
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_92824_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_2594119_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_265762_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_8154154_PreEvent.tif
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_712873_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_693819_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_399883_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_6095801_PreEvent.tif
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_7387658_PreEvent.tif
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_1068756_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_312675_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_135389_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_439488_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_664410_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_1068362_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_118868_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_215904_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_670826_PreEvent.tif
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_98310_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_86502_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_495107_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_26376_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_45934_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_67102_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_1029191_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_761032_PreEvent.tif
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_132922_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_1010394_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_956930_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_1038087_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_886726_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_774566_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_691027_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_1095404_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_36146_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_119477_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_305760_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_181263_PreEvent.tif
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_295782_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_774689_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_612594_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_450918_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_19225_PreEvent.tif
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_534068_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_187318_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_896458_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_144050_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_383430_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_921838_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_371421_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_167233_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_359826_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_591317_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_664885_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_1076204_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_213094_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_1018317_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_55568_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_103272_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_164336_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_59731_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_833266_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_230192_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_868895_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_979278_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_551926_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_11422_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_605492_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_115033_PreEvent.tif
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_1167260_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_180633_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_892933_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_236030_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_790830_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_1248200_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_31559_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_244057_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_3285448_PreEvent.tif
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_129334_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_773682_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_778194_PreEvent.tif
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_1111068_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_101973_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_382276_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_93023_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_198411_PreEvent.tif
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_8372658_PreEvent.tif
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_984831_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_62897_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_1068117_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_198534_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_770353_PreEvent.tif
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_254910_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_604222_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_624341_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_308249_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_828067_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_114964_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_591549_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_6860600_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_271769_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_78061_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_887131_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_1036366_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_83483_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_350244_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_651904_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_7931_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_1443339_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_866994_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_6199994_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_97059_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_638521_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_36015_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_791364_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_1049586_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_527077_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_5079_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_73419_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_375183_PreEvent.tif
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_5678382_PreEvent.tif
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_360519_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_161233_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_211406_PreEvent.tif
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_649970_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_65724_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_1199913_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_246154_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_1049830_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_61925_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_242570_PreEvent.tif
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_178753_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_806273_PreEvent.tif
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_31096_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_58086_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_148318_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_992457_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_533192_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_35915_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_97516_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_362274_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_294583_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_366607_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_430764_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_141910_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_142312_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_868803_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_52610_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_758178_PreEvent.tif
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_211386_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_699062_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_764946_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_132143_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_955053_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_1056717_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_883641_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_391908_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_233609_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_989553_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_217598_PreEvent.tif
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_120804_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_25540_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_14484_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_60373_PreEvent.tif
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_5923267_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_247288_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_8090_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_232060_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_49890_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_76868_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_9684_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_849649_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_707886_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_986268_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_212687_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_308150_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_260929_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_231124_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_831672_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_154838_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_156478_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_135434_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_707067_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_49764_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_1149855_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_152185_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_324254_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_403081_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_977338_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_61368_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_153941_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_163406_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_1439641_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_40936_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_342411_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_366265_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_528249_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_657443_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_168875_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_34417_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_134751_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_80221_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_596495_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_916628_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_1087508_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_225187_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_149787_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_333434_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_847275_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_845821_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_474121_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_85652_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_869358_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_117737_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_7856615_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_470303_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_347609_PreEvent.tif
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_653336_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_4915752_PreEvent.tif
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_12849_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_981708_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_648632_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_1027214_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_595451_PreEvent.tif
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_6537196_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_354981_PreEvent.tif
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_7370579_PreEvent.tif
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_5650136_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_500266_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_438959_PreEvent.tif
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_246718_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_432776_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_24858_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_592446_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_952958_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_953791_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_956740_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_179238_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_191503_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_7894_PreEvent.tif...
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_1413877_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_664261_PreEvent.tif
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_716716_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_631692_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_63307_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_5816638_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_232281_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_741178_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_788696_PreEvent.tif
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_626316_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_534470_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_170264_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_275372_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_1082482_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_597288_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_913449_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_908474_PreEvent.tif
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_769408_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_103757_PreEvent.tif
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_60129_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_179917_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_80102_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_59460_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_747992_PreEvent.tif...
+INFO - 
+Sri-Lanka: Searching 2017-04-15 to 2017-05-16
+INFO -   Found 11 pre-event images
+INFO -   Downloading Sri-Lanka_579082_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_581976_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_195474_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_319168_PreEvent.tif...
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_314919_PreEvent.tif
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_655230_PreEvent.tif
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_846007_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_1078550_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_598959_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_760290_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_70352_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_177319_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_256539_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_22088_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_900498_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_146222_PreEvent.tif...
+INFO - 
+Pakistan: Searching 2017-05-14 to 2017-06-14
+INFO -   Found 42 pre-event images
+INFO -   Downloading Pakistan_70625_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_284928_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_989230_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_511199_PreEvent.tif...
+INFO - 
+Nigeria: Searching 2018-08-07 to 2018-09-07
+INFO -   Found 30 pre-event images
+INFO -   Downloading Nigeria_812045_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_772630_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_66026_PreEvent.tif
+INFO - 
+Bolivia: Searching 2018-01-01 to 2018-02-01
+INFO -   Found 21 pre-event images
+INFO -   File exists: Bolivia_290290_PreEvent.tif
+INFO - 
+Mekong: Searching 2018-06-21 to 2018-07-22
+INFO -   Found 30 pre-event images
+INFO -   Downloading Mekong_474783_PreEvent.tif...
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_147015_PreEvent.tif...
+INFO - 
+Spain: Searching 2019-08-03 to 2019-09-03
+INFO -   Found 33 pre-event images
+INFO -   File exists: Spain_7786924_PreEvent.tif
+INFO - 
+Ghana: Searching 2018-08-04 to 2018-09-04
+INFO -   Found 64 pre-event images
+INFO -   Downloading Ghana_83200_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_205466_PreEvent.tif...
+INFO - 
+India: Searching 2016-06-28 to 2016-07-29
+INFO -   Found 6 pre-event images
+INFO -   Downloading India_285297_PreEvent.tif...
+INFO - 
+USA: Searching 2019-04-07 to 2019-05-08
+INFO -   Found 12 pre-event images
+INFO -   File exists: USA_652955_PreEvent.tif
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_149830_PreEvent.tif...
+INFO - 
+Somalia: Searching 2018-03-23 to 2018-04-23
+INFO -   Found 17 pre-event images
+INFO -   Downloading Somalia_94102_PreEvent.tif...
+INFO - 
+Paraguay: Searching 2018-09-16 to 2018-10-17
+INFO -   Found 46 pre-event images
+INFO -   Downloading Paraguay_224845_PreEvent.tif...
+INFO - 
+============================================================
+INFO - PRE-EVENT SAR RETRIEVAL SUMMARY
+INFO - ============================================================
+INFO - Success: 446
+INFO - Failed: 0
+INFO - Skipped: 0

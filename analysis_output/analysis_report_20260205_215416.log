@@ -1,0 +1,149 @@
+2026-02-05 21:54:16,030 - INFO - ============================================================
+2026-02-05 21:54:16,030 - INFO - DATASET ANALYSIS AND SANITY CHECKS
+2026-02-05 21:54:16,030 - INFO - ============================================================
+2026-02-05 21:54:16,030 - INFO - Found: data/sen1floods11
+2026-02-05 21:54:16,030 - INFO - Found: data/pre_event_sar
+2026-02-05 21:54:16,030 - INFO - Found: data/infrastructure
+2026-02-05 21:54:16,030 - INFO - 
+[1/5] Analyzing Sen1Floods11 labels...
+2026-02-05 21:54:16,030 - INFO - Scanning flat label directory: data/sen1floods11/LabelHand
+2026-02-05 21:54:16,142 - INFO - Found 446 label files
+2026-02-05 21:54:16,155 - WARNING - Constant mask: Paraguay_7894_LabelHand (0.0% flood)
+2026-02-05 21:54:16,160 - WARNING - Constant mask: Somalia_7931_LabelHand (0.0% flood)
+2026-02-05 21:54:16,177 - WARNING - Constant mask: Ghana_49890_LabelHand (0.0% flood)
+2026-02-05 21:54:16,201 - ERROR - EMPTY MASK: Ghana_83483_LabelHand
+2026-02-05 21:54:16,201 - WARNING - Constant mask: Ghana_83483_LabelHand (0.0% flood)
+2026-02-05 21:54:16,251 - WARNING - Constant mask: Pakistan_65724_LabelHand (0.0% flood)
+2026-02-05 21:54:16,254 - WARNING - Constant mask: Pakistan_132143_LabelHand (0.0% flood)
+2026-02-05 21:54:16,255 - WARNING - Constant mask: Ghana_7496_LabelHand (0.0% flood)
+2026-02-05 21:54:16,265 - ERROR - EMPTY MASK: Ghana_26376_LabelHand
+2026-02-05 21:54:16,265 - WARNING - Constant mask: Ghana_26376_LabelHand (0.0% flood)
+2026-02-05 21:54:16,268 - WARNING - Constant mask: Ghana_264787_LabelHand (0.0% flood)
+2026-02-05 21:54:16,272 - WARNING - Constant mask: Pakistan_528249_LabelHand (0.0% flood)
+2026-02-05 21:54:16,280 - WARNING - Constant mask: Pakistan_760290_LabelHand (0.0% flood)
+2026-02-05 21:54:16,288 - WARNING - Constant mask: Sri-Lanka_52223_LabelHand (0.0% flood)
+2026-02-05 21:54:16,295 - WARNING - Constant mask: Ghana_168875_LabelHand (0.0% flood)
+2026-02-05 21:54:16,317 - WARNING - Constant mask: Ghana_144050_LabelHand (0.0% flood)
+2026-02-05 21:54:16,318 - WARNING - Constant mask: Paraguay_198534_LabelHand (0.0% flood)
+2026-02-05 21:54:16,334 - WARNING - Constant mask: Ghana_124834_LabelHand (0.0% flood)
+2026-02-05 21:54:16,337 - WARNING - Constant mask: Ghana_11745_LabelHand (0.0% flood)
+2026-02-05 21:54:16,345 - WARNING - Constant mask: Ghana_53713_LabelHand (0.0% flood)
+2026-02-05 21:54:16,369 - WARNING - Suspicious high flood %: Spain_5923267_LabelHand (92.2%)
+2026-02-05 21:54:16,370 - WARNING - Constant mask: Paraguay_36146_LabelHand (0.0% flood)
+2026-02-05 21:54:16,372 - WARNING - Suspicious high flood %: Ghana_866994_LabelHand (90.2%)
+2026-02-05 21:54:16,374 - WARNING - Constant mask: Ghana_187318_LabelHand (0.0% flood)
+2026-02-05 21:54:16,378 - WARNING - Constant mask: Paraguay_224845_LabelHand (0.0% flood)
+2026-02-05 21:54:16,394 - WARNING - Constant mask: Paraguay_36015_LabelHand (0.0% flood)
+2026-02-05 21:54:16,397 - WARNING - Suspicious high flood %: Mekong_52610_LabelHand (80.4%)
+2026-02-05 21:54:16,407 - WARNING - Constant mask: India_44475_LabelHand (0.0% flood)
+2026-02-05 21:54:16,410 - WARNING - Constant mask: Ghana_45911_LabelHand (0.0% flood)
+2026-02-05 21:54:16,427 - WARNING - Constant mask: Ghana_167233_LabelHand (0.0% flood)
+2026-02-05 21:54:16,438 - WARNING - Constant mask: India_136196_LabelHand (0.0% flood)
+2026-02-05 21:54:16,462 - WARNING - Constant mask: Ghana_128663_LabelHand (0.0% flood)
+2026-02-05 21:54:16,463 - WARNING - Constant mask: Ghana_97059_LabelHand (0.0% flood)
+2026-02-05 21:54:16,464 - ERROR - EMPTY MASK: Ghana_5079_LabelHand
+2026-02-05 21:54:16,464 - WARNING - Constant mask: Ghana_5079_LabelHand (0.0% flood)
+2026-02-05 21:54:16,466 - WARNING - Constant mask: Paraguay_215904_LabelHand (0.0% flood)
+2026-02-05 21:54:16,478 - WARNING - Constant mask: Somalia_93023_LabelHand (0.0% flood)
+2026-02-05 21:54:16,479 - WARNING - Constant mask: Paraguay_40936_LabelHand (0.0% flood)
+2026-02-05 21:54:16,488 - WARNING - Constant mask: Ghana_146222_LabelHand (0.0% flood)
+2026-02-05 21:54:16,506 - WARNING - Constant mask: Sri-Lanka_135713_LabelHand (0.0% flood)
+2026-02-05 21:54:16,507 - WARNING - Constant mask: Ghana_154838_LabelHand (0.0% flood)
+2026-02-05 21:54:16,513 - WARNING - Constant mask: Ghana_142312_LabelHand (0.0% flood)
+2026-02-05 21:54:16,521 - WARNING - Constant mask: Ghana_134751_LabelHand (0.0% flood)
+2026-02-05 21:54:16,522 - WARNING - Constant mask: Paraguay_34417_LabelHand (100.0% flood)
+2026-02-05 21:54:16,522 - WARNING - Suspicious high flood %: Paraguay_34417_LabelHand (100.0%)
+2026-02-05 21:54:16,528 - WARNING - Constant mask: Somalia_195014_LabelHand (0.0% flood)
+2026-02-05 21:54:16,533 - WARNING - Constant mask: Ghana_156478_LabelHand (0.0% flood)
+2026-02-05 21:54:16,549 - WARNING - Constant mask: Pakistan_740461_LabelHand (0.0% flood)
+2026-02-05 21:54:16,564 - WARNING - Suspicious high flood %: Sri-Lanka_845821_LabelHand (97.4%)
+2026-02-05 21:54:16,568 - WARNING - Constant mask: Ghana_132163_LabelHand (0.0% flood)
+2026-02-05 21:54:16,578 - WARNING - Constant mask: Ghana_161233_LabelHand (0.0% flood)
+2026-02-05 21:54:16,582 - WARNING - Constant mask: Pakistan_336228_LabelHand (0.0% flood)
+2026-02-05 21:54:16,587 - ERROR - EMPTY MASK: Ghana_234935_LabelHand
+2026-02-05 21:54:16,587 - WARNING - Constant mask: Ghana_234935_LabelHand (0.0% flood)
+2026-02-05 21:54:16,588 - WARNING - Constant mask: Mekong_221789_LabelHand (0.0% flood)
+2026-02-05 21:54:16,594 - WARNING - Suspicious high flood %: Nigeria_529525_LabelHand (85.3%)
+2026-02-05 21:54:16,603 - WARNING - Suspicious high flood %: Sri-Lanka_534068_LabelHand (98.1%)
+2026-02-05 21:54:16,607 - WARNING - Constant mask: Somalia_61368_LabelHand (0.0% flood)
+2026-02-05 21:54:16,614 - WARNING - Constant mask: Ghana_194723_LabelHand (0.0% flood)
+2026-02-05 21:54:16,618 - WARNING - Constant mask: Pakistan_210595_LabelHand (0.0% flood)
+2026-02-05 21:54:16,624 - ERROR - EMPTY MASK: Ghana_277_LabelHand
+2026-02-05 21:54:16,624 - WARNING - Constant mask: Ghana_277_LabelHand (0.0% flood)
+2026-02-05 21:54:16,630 - WARNING - Constant mask: Paraguay_205585_LabelHand (0.0% flood)
+2026-02-05 21:54:16,635 - WARNING - Suspicious high flood %: Nigeria_984831_LabelHand (92.3%)
+2026-02-05 21:54:16,646 - WARNING - Constant mask: Paraguay_284928_LabelHand (0.0% flood)
+2026-02-05 21:54:16,653 - WARNING - Constant mask: Paraguay_12870_LabelHand (0.0% flood)
+2026-02-05 21:54:16,660 - INFO - 
+[2/5] Analyzing post-event SAR...
+2026-02-05 21:54:16,660 - INFO - Scanning flat SAR directory: data/sen1floods11/S1Hand
+2026-02-05 21:54:16,661 - INFO - Found 446 SAR files
+2026-02-05 21:54:16,662 - INFO - ✅ All labels have matching SAR files
+2026-02-05 21:54:16,663 - INFO - Typical SAR shape: (512, 512), Channels: 2
+2026-02-05 21:54:16,663 - INFO - 
+[3/5] Analyzing pre-event SAR...
+2026-02-05 21:54:16,663 - INFO - Checking pre-event SAR availability and alignment...
+2026-02-05 21:54:16,663 - INFO - 
+[4/5] Analyzing infrastructure data...
+2026-02-05 21:54:16,663 - INFO - Checking infrastructure mask resolution...
+2026-02-05 21:54:16,663 - INFO - 
+[5/5] Checking alignment...
+2026-02-05 21:54:16,663 - INFO - Verifying spatial alignment between layers...
+2026-02-05 21:54:16,663 - INFO -   Check: CRS consistency
+2026-02-05 21:54:16,663 - INFO -   Check: Pixel alignment
+2026-02-05 21:54:16,663 - INFO -   Check: Extent matching
+2026-02-05 21:54:16,663 - INFO - 
+============================================================
+2026-02-05 21:54:16,663 - INFO - AGGREGATE STATISTICS
+2026-02-05 21:54:16,663 - INFO - ============================================================
+2026-02-05 21:54:16,663 - INFO - Total samples: 446
+2026-02-05 21:54:16,663 - INFO - Total flood pixels: 10,705,605
+2026-02-05 21:54:16,663 - INFO - Total non-flood pixels: 90,277,709
+2026-02-05 21:54:16,663 - INFO - Overall flood percentage: 10.60%
+2026-02-05 21:54:16,663 - INFO - 
+Per-event breakdown:
+2026-02-05 21:54:16,663 - INFO -   Bolivia: 15 samples, avg 17.0% flood
+2026-02-05 21:54:16,663 - INFO -   Spain: 30 samples, avg 14.1% flood
+2026-02-05 21:54:16,663 - INFO -   Sri-Lanka: 42 samples, avg 11.2% flood
+2026-02-05 21:54:16,663 - INFO -   Paraguay: 67 samples, avg 9.4% flood
+2026-02-05 21:54:16,663 - INFO -   Somalia: 26 samples, avg 6.2% flood
+2026-02-05 21:54:16,664 - INFO -   Pakistan: 28 samples, avg 7.6% flood
+2026-02-05 21:54:16,664 - INFO -   Ghana: 53 samples, avg 6.4% flood
+2026-02-05 21:54:16,664 - INFO -   Mekong: 30 samples, avg 23.6% flood
+2026-02-05 21:54:16,664 - INFO -   USA: 69 samples, avg 4.6% flood
+2026-02-05 21:54:16,664 - INFO -   India: 68 samples, avg 12.8% flood
+2026-02-05 21:54:16,664 - INFO -   Nigeria: 18 samples, avg 22.3% flood
+2026-02-05 21:54:17,126 - INFO - Saved: flood_percentage_histogram.png
+2026-02-05 21:54:17,204 - INFO - Saved: class_balance_chart.png
+2026-02-05 21:54:17,204 - INFO - 
+============================================================
+2026-02-05 21:54:17,204 - INFO - ANALYSIS SUMMARY
+2026-02-05 21:54:17,204 - INFO - ============================================================
+2026-02-05 21:54:17,204 - INFO - 
+ERRORS (5):
+2026-02-05 21:54:17,204 - ERROR -   Empty mask: Ghana_83483_LabelHand
+2026-02-05 21:54:17,204 - ERROR -   Empty mask: Ghana_26376_LabelHand
+2026-02-05 21:54:17,204 - ERROR -   Empty mask: Ghana_5079_LabelHand
+2026-02-05 21:54:17,204 - ERROR -   Empty mask: Ghana_234935_LabelHand
+2026-02-05 21:54:17,205 - ERROR -   Empty mask: Ghana_277_LabelHand
+2026-02-05 21:54:17,205 - INFO - 
+WARNINGS (53):
+2026-02-05 21:54:17,205 - WARNING -   Constant mask: Paraguay_7894_LabelHand
+2026-02-05 21:54:17,205 - WARNING -   Constant mask: Somalia_7931_LabelHand
+2026-02-05 21:54:17,205 - WARNING -   Constant mask: Ghana_49890_LabelHand
+2026-02-05 21:54:17,205 - WARNING -   Constant mask: Ghana_83483_LabelHand
+2026-02-05 21:54:17,205 - WARNING -   Constant mask: Pakistan_65724_LabelHand
+2026-02-05 21:54:17,205 - WARNING -   Constant mask: Pakistan_132143_LabelHand
+2026-02-05 21:54:17,205 - WARNING -   Constant mask: Ghana_7496_LabelHand
+2026-02-05 21:54:17,205 - WARNING -   Constant mask: Ghana_26376_LabelHand
+2026-02-05 21:54:17,205 - WARNING -   Constant mask: Ghana_264787_LabelHand
+2026-02-05 21:54:17,205 - WARNING -   Constant mask: Pakistan_528249_LabelHand
+2026-02-05 21:54:17,205 - INFO - 
+INFO (363):
+2026-02-05 21:54:17,205 - INFO -   Invalid pixels in Mekong_382276_LabelHand: 0.0%
+2026-02-05 21:54:17,205 - INFO -   Invalid pixels in Paraguay_7894_LabelHand: 22.9%
+2026-02-05 21:54:17,205 - INFO -   Invalid pixels in USA_19225_LabelHand: 0.0%
+2026-02-05 21:54:17,205 - INFO -   Invalid pixels in Sri-Lanka_92824_LabelHand: 6.0%
+2026-02-05 21:54:17,205 - INFO -   Invalid pixels in USA_366607_LabelHand: 0.0%
+2026-02-05 21:54:17,205 - ERROR - 
+⚠️  CRITICAL ISSUES FOUND - Review before training!

@@ -1,0 +1,20 @@
+INFO - ============================================================
+INFO - OSM Infrastructure Downloader
+INFO - ============================================================
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+INFO - Regions to process: 11
+INFO - 
+Processing: Bolivia
+INFO -   BBox: [-65.64, -15.96, -64.36, -11.39]
+INFO -   Roads: Already exists, skipping
+INFO -   Buildings: Already exists, skipping
+INFO -   Rasterization: Creating aligned binary masks...
+INFO -   Found 15 SAR chips to align with.
+INFO -   Rasterized 15 chips for Bolivia
+INFO - 
+Processing: Ghana
+INFO -   BBox: [-2.3, 6.3, 0.22, 11.93]
+INFO -   Downloading highway...
+ERROR -   Failed to download highway: 504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpreter
+INFO -   Downloading building...

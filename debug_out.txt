@@ -1,0 +1,36 @@
+DEBUG: Script starting...
+Using device: mps
+Strict Data Mode: True
+Initializing DataLoaders (Infrastructure Disabled)...
+Warning: Split file data/sen1floods11/splits/flood_handlabeled/flood_train_data.csv not found. Using all available paired files.
+Dataset (train, strict=True, min_flood=1): 94/356 valid samples found.
+Warning: Split file data/sen1floods11/splits/flood_handlabeled/flood_valid_data.csv not found. Using all available paired files.
+Dataset (valid, strict=True, min_flood=0): 29/90 valid samples found.
+Initializing Model...
+TensorBoard logging enabled in 'logs/experiment_dice_loss'
+Starting Training...
+Epoch 1/1 [Batch 0/94] Loss: 1.0151 IoU: 0.0390
+Epoch 1/1 [Batch 10/94] Loss: 0.7277 IoU: 0.4522
+Traceback (most recent call last):
+  File "/Users/atharvwadadekar/DisasterDL3/src/train.py", line 176, in <module>
+    train_model()
+  File "/Users/atharvwadadekar/DisasterDL3/src/train.py", line 91, in train_model
+    for i, batch in enumerate(train_loader):
+  File "/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 734, in __next__
+    data = self._next_data()
+  File "/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 790, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/atharvwadadekar/DisasterDL3/src/dataset.py", line 134, in __getitem__
+    pre_sar = self._load_tif(pre_path)
+  File "/Users/atharvwadadekar/DisasterDL3/src/dataset.py", line 211, in _load_tif
+    return src.read().astype(np.float32)
+  File "rasterio/_io.pyx", line 644, in rasterio._io.DatasetReaderBase.read
+  File "rasterio/_io.pyx", line 969, in rasterio._io.DatasetReaderBase._read
+  File "rasterio/_io.pyx", line 199, in rasterio._io.io_multi_band
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/contextlib.py", line 121, in __exit__
+    def __exit__(self, type, value, traceback):
+KeyboardInterrupt

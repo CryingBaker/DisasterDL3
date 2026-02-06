@@ -1,0 +1,810 @@
+INFO - ============================================================
+INFO - Pre-Event SAR Retrieval
+INFO - ============================================================
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/google/api_core/_python_version_support.py:246: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+/Users/atharvwadadekar/DisasterDL3/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+INFO - GEE initialized with project: rare-ridge-486516-k1
+INFO - Scanning flat directory: data/sen1floods11/S1Hand
+INFO - Found 446 chips in flat directory.
+INFO - Found 446 post-event chips to match
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: India
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_933610_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_519181_PreEvent.tif
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Ghana
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_251323_PreEvent.tif
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_233925_PreEvent.tif
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_7558720_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_826217_PreEvent.tif
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_8199661_PreEvent.tif
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_66511_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_1039203_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Pakistan
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_8565131_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Ghana
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_84195_PreEvent.tif
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: India
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_23014_PreEvent.tif
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Paraguay
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_8104659_PreEvent.tif
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_181503_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_486103_PreEvent.tif
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Mekong
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_7604243_PreEvent.tif
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_379434_PreEvent.tif
+WARNING - No metadata for event: Somalia
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_348639_PreEvent.tif
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: India
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_2523247_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Ghana
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_76104_PreEvent.tif
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: India
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_337094_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Sri-Lanka
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_225017_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_646878_PreEvent.tif
+WARNING - No metadata for event: Somalia
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_741073_PreEvent.tif
+WARNING - No metadata for event: India
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_387945_PreEvent.tif
+WARNING - No metadata for event: India
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_2472849_PreEvent.tif
+WARNING - No metadata for event: India
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Mekong
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_2938657_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Mekong
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_905409_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Paraguay
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_4282030_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_504150_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_224165_PreEvent.tif
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: India
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Sri-Lanka
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_994009_PreEvent.tif
+WARNING - No metadata for event: Sri-Lanka
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_2594119_PreEvent.tif
+WARNING - No metadata for event: India
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_8154154_PreEvent.tif
+WARNING - No metadata for event: Pakistan
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_693819_PreEvent.tif
+WARNING - No metadata for event: India
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_6095801_PreEvent.tif
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_7387658_PreEvent.tif
+WARNING - No metadata for event: Somalia
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_312675_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: India
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_1068362_PreEvent.tif
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_670826_PreEvent.tif
+WARNING - No metadata for event: Mekong
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_86502_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Mekong
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_67102_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_761032_PreEvent.tif
+WARNING - No metadata for event: Sri-Lanka
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_1010394_PreEvent.tif
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_181263_PreEvent.tif
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Sri-Lanka
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_19225_PreEvent.tif
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Sri-Lanka
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_11422_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_605492_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_115033_PreEvent.tif
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_1167260_PreEvent.tif
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: India
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_3285448_PreEvent.tif
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_129334_PreEvent.tif
+WARNING - No metadata for event: India
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_778194_PreEvent.tif
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Somalia
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_198411_PreEvent.tif
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_8372658_PreEvent.tif
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_770353_PreEvent.tif
+WARNING - No metadata for event: Mekong
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_604222_PreEvent.tif
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_114964_PreEvent.tif
+WARNING - No metadata for event: India
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_6860600_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Ghana
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_350244_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Ghana
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_6199994_PreEvent.tif
+WARNING - No metadata for event: Ghana
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_638521_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_1049586_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_527077_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_375183_PreEvent.tif
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_5678382_PreEvent.tif
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_360519_PreEvent.tif
+WARNING - No metadata for event: Ghana
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_211406_PreEvent.tif
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Pakistan
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_1199913_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Ghana
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_242570_PreEvent.tif
+WARNING - No metadata for event: Sri-Lanka
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_806273_PreEvent.tif
+WARNING - No metadata for event: Nigeria
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_58086_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Ghana
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_294583_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_366607_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_430764_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Mekong
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_758178_PreEvent.tif
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Pakistan
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_955053_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Somalia
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_217598_PreEvent.tif
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Sri-Lanka
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_60373_PreEvent.tif
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_5923267_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Ghana
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_232060_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: India
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_986268_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_308150_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_260929_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_231124_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_831672_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Sri-Lanka
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_7856615_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_347609_PreEvent.tif
+WARNING - No metadata for event: Sri-Lanka
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_4915752_PreEvent.tif
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Pakistan
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_595451_PreEvent.tif
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_6537196_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_354981_PreEvent.tif
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_7370579_PreEvent.tif
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_5650136_PreEvent.tif
+WARNING - No metadata for event: India
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_438959_PreEvent.tif
+WARNING - No metadata for event: Pakistan
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_432776_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Mekong
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_664261_PreEvent.tif
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_716716_PreEvent.tif
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Sri-Lanka
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_5816638_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_741178_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_788696_PreEvent.tif
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: India
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_170264_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_275372_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_1082482_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Paraguay
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_908474_PreEvent.tif
+WARNING - No metadata for event: India
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_103757_PreEvent.tif
+WARNING - No metadata for event: Somalia
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_179917_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: India
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Sri-Lanka
+WARNING - No metadata for event: Paraguay
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_195474_PreEvent.tif
+WARNING - No metadata for event: Ghana
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_314919_PreEvent.tif
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_655230_PreEvent.tif
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: India
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: India
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Pakistan
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Nigeria
+WARNING - No metadata for event: India
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_66026_PreEvent.tif
+INFO - 
+Bolivia: Searching 2018-01-06 to 2018-02-06
+INFO -   Found 52 pre-event images
+INFO -   File exists: Bolivia_290290_PreEvent.tif
+WARNING - No metadata for event: Mekong
+WARNING - No metadata for event: Ghana
+INFO - 
+Spain: Searching 2019-07-30 to 2019-08-30
+INFO -   Found 26 pre-event images
+INFO -   File exists: Spain_7786924_PreEvent.tif
+WARNING - No metadata for event: Ghana
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: India
+INFO - 
+USA: Searching 2019-02-03 to 2019-03-06
+INFO -   Found 36 pre-event images
+INFO -   File exists: USA_652955_PreEvent.tif
+WARNING - No metadata for event: Paraguay
+WARNING - No metadata for event: Somalia
+WARNING - No metadata for event: Paraguay
+INFO - 
+============================================================
+INFO - PRE-EVENT SAR RETRIEVAL SUMMARY
+INFO - ============================================================
+INFO - Success: 114
+INFO - Failed: 0
+INFO - Skipped: 332

@@ -1,0 +1,10 @@
+2026-02-05 21:17:57,121 - INFO - ============================================================
+2026-02-05 21:17:57,121 - INFO - DATASET ANALYSIS AND SANITY CHECKS
+2026-02-05 21:17:57,121 - INFO - ============================================================
+2026-02-05 21:17:57,121 - INFO - Found: data/sen1floods11
+2026-02-05 21:17:57,121 - WARNING - Not found: data/pre_event_sar
+2026-02-05 21:17:57,121 - WARNING - Not found: data/infrastructure
+2026-02-05 21:17:57,121 - INFO - 
+[1/5] Analyzing Sen1Floods11 labels...
+2026-02-05 21:17:57,121 - INFO - Scanning flat label directory: data/sen1floods11/LabelHand
+2026-02-05 21:18:07,912 - INFO - Found 446 label files
